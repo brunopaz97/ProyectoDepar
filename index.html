@@ -39,7 +39,7 @@
                         <a href="index.html" class="nav-item nav-link active">Inicio</a>
                         <a href="team.html" class="nav-item nav-link">Nosotros</a>
                         <a href="menu.html" class="nav-item nav-link">Galería</a>
-                        <a href="contact.html" class="nav-item nav-link">Contacto</a>
+                        <a href="contact.php" class="nav-item nav-link">Contacto</a>
                     </div>
                 </div>
             </div>
@@ -61,8 +61,8 @@
                                 Contamos con el software más moderno, dinámico e intuitivo del mercado, permitirá tanto al vendedor como al interesado transformar su concepto de diseño de interiores.
                             </p>
                             <div class="carousel-btn">
-                                <a class="btn custom-btn" href="">Ver Galería</a>
-                                <a class="btn custom-btn" href="">Contáctanos</a>
+                                <a class="btn custom-btn" href="menu.html">Ver Galería</a>
+                                <a class="btn custom-btn" href="contact.php">Contáctanos</a>
                             </div>
                         </div>
                     </div>
@@ -76,8 +76,8 @@
                                 Nuestro software de Realidad Aumentada fue desarrollado por un equipo de ingenieros altamente calificados y con las tecnologías mas recientes del mercado. 
                             </p>
                             <div class="carousel-btn">
-                                <a class="btn custom-btn" href="">Ver Galería</a>
-                                <a class="btn custom-btn" href="">Contáctanos</a>
+                                <a class="btn custom-btn" href="menu.html">Ver Galería</a>
+                                <a class="btn custom-btn" href="contact.php">Contáctanos</a>
                             </div>
                         </div>
                     </div>
@@ -91,8 +91,8 @@
                                 El mercado inmobiliario es un sector con procesos ya establecidos, debido a ello mostrar nuevos recursos o funciones en el mercado hace que exista diferencia en la competencia.
                             </p>
                             <div class="carousel-btn">
-                                <a class="btn custom-btn" href="">Ver Galería</a>
-                                <a class="btn custom-btn" href="">Contáctanos</a>
+                                <a class="btn custom-btn" href="menu.html">Ver Galería</a>
+                                <a class="btn custom-btn" href="contact.php">Contáctanos</a>
                             </div>
                         </div>
                     </div>
@@ -130,7 +130,7 @@
                                     Pongamos un ejemplo: Un cliente pregunta al asesor inmobiliario, ¿Cómo se vería esta sala con paredes de color crema y teniendo un juego de sala en medio? La respuesta muy común sería mostrarle fotos referenciales o ideas similares y en caso de no tener una idea cercana, al cliente solo le queda “imaginárselo” dejando sin querer una interrogante sin resolver, pero ¿Por qué no mostrárselo? ¿Por qué no plasmar las ideas del interesado en tiempo real? DepAR ha sido desarrollado para unir la tecnología de Realidad Aumentada y los bienes inmuebles. Con ella podrás personalizar el concepto de vista interactiva del departamento que tu cliente requiere, desde colores de paredes y piso hasta variedad de muebles o artículos de hogar, dándole la confianza de que todas las ideas que tenga pueden ser posibles.
                                 </p>
                                 <div style="text-align: center;">
-                                <a class="btn custom-btn" href="">Contáctanos</a>
+                                <a class="btn custom-btn" href="contact.php">Contáctanos</a>
                                 </div>
                             </div>
                         </div>
@@ -150,7 +150,7 @@
                             <p>
                                 Nuestro software requirió de un grupo ingenieros quienes juntaron sus conocimientos y habilidades para lograr este producto.
                             </p>
-                            <a href="">Miembros</a>
+                            <a href="team.html">Miembros</a>
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -159,7 +159,7 @@
                             <p>
                                 Puesto en marcha el software, se brindó a modo de prueba el uso del producto en distintos proyectos inmobiliarios para conocer el uso en el campo.
                             </p>
-                            <a href="">Fotos</a>
+                            <a href="menu.html">Fotos</a>
                         </div>
                     </div>
                 </div>
@@ -288,9 +288,15 @@
                                 Semana a semana, accede a las últimas novedades del mercado inmobiliaria y de noticias de avances de la Realidad Aumentada en este sector. 
                             </p>
                             <div class="form">
-                                <input class="form-control" placeholder="Ingrese correo">
-                                <button class="btn custom-btn">Enviar</button>
+                                <form name="sentSub" id="contactSub" novalidate="novalidate">
+                                    <div class="control-group">
+                                        <input  type="email" class="form-control" id="correo" placeholder="Ingrese su correo" required="required" data-validation-required-message="Porfavor, ingrese un correo" />
+                                        <p class="help-block text-danger"></p>
+                                        <button class="btn custom-btn" type="submit" id="sendSubButton">Enviar</button>
+                                    </div>
+                                </form>
                             </div>
+                            <div id="registrado"></div>    
                         </div>
                     </div>
                 </div>
@@ -316,7 +322,8 @@
         
         <!-- Contact Javascript File -->
         <script src="mail/jqBootstrapValidation.min.js"></script>
-        <script src="mail/contact.js"></script>
+        <script src="mail/suscrip.js"></script>
+        <script src="mail/contacto.js"></script>
 
         <!-- Template Javascript -->
         <script src="js/main.js"></script>

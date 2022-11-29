@@ -22,7 +22,7 @@
         <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
 
         <!-- Template Stylesheet -->
-        <link href="css/style.css" rel="stylesheet">
+        <link href="css/estilo.css" rel="stylesheet">
     </head>
 
     <body>
@@ -39,7 +39,7 @@
                         <a href="index.html" class="nav-item nav-link">Inicio</a>
                         <a href="team.html" class="nav-item nav-link active">Nosotros</a>
                         <a href="menu.html" class="nav-item nav-link">Galería</a>
-                        <a href="contact.html" class="nav-item nav-link">Contacto</a>
+                        <a href="contact.php" class="nav-item nav-link">Contacto</a>
                     </div>
                 </div>
             </div>
@@ -71,7 +71,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="team-item">
                             <div class="team-img">
-                                <img src="img/team-1.jpg" alt="Image">
+                                <img src="img/team-bruno.JPG" alt="Image">
                                 <div class="team-social">
                                     <a href="https://pe.linkedin.com/in/pazcbruno" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                                     <a href="https://github.com/brunopaz97" target="_blank"><i class="fab fa-github"></i></a>
@@ -90,7 +90,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="team-item">
                             <div class="team-img">
-                                <img src="img/team-2.jpg" alt="Image">
+                                <img src="img/team-eduardo.JPG" alt="Image">
                                 <div class="team-social">
                                     <a href="https://github.com/EduardoCollazos" target="_blank"><i class="fab fa-github"></i></a>
                                 </div>
@@ -107,7 +107,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="team-item">
                             <div class="team-img">
-                                <img src="img/team-3.jpg" alt="Image">
+                                <img src="img/team-omar.JPG" alt="Image">
                                 <div class="team-social">
                                     <a href="https://github.com/omarjj10" target="_blank"><i class="fab fa-github"></i></a>
                                 </div>
@@ -116,6 +116,23 @@
                                 <h2>Omar Calvanapon</h2>
                                 <p>CIO</p>
                                 <p>josuecalvanapon.2010@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4"></div>
+
+                    <div class="col-lg-4"></div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="img/team-arturo.JPG" alt="Image">
+                                <div class="team-social">
+                                    <a href="https://github.com/Ascarzex" target="_blank"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                            <div class="team-text">
+                                <h2>Arturo Ascarza</h2>
+                                <p>CFO</p>
                             </div>
                         </div>
                     </div>
@@ -155,9 +172,15 @@
                                 Semana a semana, accede a las últimas novedades del mercado inmobiliaria y de noticias de avances de la Realidad Aumentada en este sector. 
                             </p>
                             <div class="form">
-                                <input class="form-control" placeholder="Ingrese correo">
-                                <button class="btn custom-btn">Enviar</button>
+                                <form name="sentSub" id="contactSub" novalidate="novalidate">
+                                    <div class="control-group">
+                                        <input  type="email" class="form-control" id="correo" placeholder="Ingrese su correo" required="required" data-validation-required-message="Porfavor, ingrese un correo" />
+                                        <p class="help-block text-danger"></p>
+                                        <button class="btn custom-btn" type="submit" id="sendSubButton">Enviar</button>
+                                    </div>
+                                </form>
                             </div>
+                            <div id="registrado"></div>    
                         </div>
                     </div>
                 </div>
@@ -183,6 +206,7 @@
         
         <!-- Contact Javascript File -->
         <script src="mail/jqBootstrapValidation.min.js"></script>
+        <script src="mail/suscrip.js"></script>
         <script src="mail/contact.js"></script>
 
         <!-- Template Javascript -->
