@@ -36,14 +36,14 @@
         <!-- Nav Bar Start -->
         <div class="navbar navbar-expand-lg bg-light navbar-light">
             <div class="container-fluid">
-                <a href="index.php" class="navbar-brand">Dep<span>AR</span></a>
+                <a href="index.html" class="navbar-brand">Dep<span>AR</span></a>
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav ml-auto">
-                        <a href="index.php" class="nav-item nav-link">Inicio</a>
+                        <a href="index.html" class="nav-item nav-link">Inicio</a>
                         <a href="team.php" class="nav-item nav-link">Nosotros</a>
                         <a href="menu.php" class="nav-item nav-link active">Galería</a>
                         <a href="contact.php" class="nav-item nav-link">Contacto</a>
