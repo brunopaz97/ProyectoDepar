@@ -29,16 +29,16 @@
         <!-- Nav Bar Start -->
         <div class="navbar navbar-expand-lg bg-light navbar-light">
             <div class="container-fluid">
-                <a href="index.html" class="navbar-brand">Dep<span>AR</span></a>
+                <a href="index.php" class="navbar-brand">Dep<span>AR</span></a>
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav ml-auto">
-                        <a href="index.html" class="nav-item nav-link active">Inicio</a>
-                        <a href="team.html" class="nav-item nav-link">Nosotros</a>
-                        <a href="menu.html" class="nav-item nav-link">Galería</a>
+                        <a href="index.php" class="nav-item nav-link active">Inicio</a>
+                        <a href="team.php" class="nav-item nav-link">Nosotros</a>
+                        <a href="menu.php" class="nav-item nav-link">Galería</a>
                         <a href="contact.php" class="nav-item nav-link">Contacto</a>
                     </div>
                 </div>
@@ -61,7 +61,7 @@
                                 Contamos con el software más moderno, dinámico e intuitivo del mercado, permitirá tanto al vendedor como al interesado transformar su concepto de diseño de interiores.
                             </p>
                             <div class="carousel-btn">
-                                <a class="btn custom-btn" href="menu.html">Ver Galería</a>
+                                <a class="btn custom-btn" href="menu.php">Ver Galería</a>
                                 <a class="btn custom-btn" href="contact.php">Contáctanos</a>
                             </div>
                         </div>
@@ -76,7 +76,7 @@
                                 Nuestro software de Realidad Aumentada fue desarrollado por un equipo de ingenieros altamente calificados y con las tecnologías mas recientes del mercado. 
                             </p>
                             <div class="carousel-btn">
-                                <a class="btn custom-btn" href="menu.html">Ver Galería</a>
+                                <a class="btn custom-btn" href="menu.php">Ver Galería</a>
                                 <a class="btn custom-btn" href="contact.php">Contáctanos</a>
                             </div>
                         </div>
@@ -91,7 +91,7 @@
                                 El mercado inmobiliario es un sector con procesos ya establecidos, debido a ello mostrar nuevos recursos o funciones en el mercado hace que exista diferencia en la competencia.
                             </p>
                             <div class="carousel-btn">
-                                <a class="btn custom-btn" href="menu.html">Ver Galería</a>
+                                <a class="btn custom-btn" href="menu.php">Ver Galería</a>
                                 <a class="btn custom-btn" href="contact.php">Contáctanos</a>
                             </div>
                         </div>
@@ -150,7 +150,7 @@
                             <p>
                                 Nuestro software requirió de un grupo ingenieros quienes juntaron sus conocimientos y habilidades para lograr este producto.
                             </p>
-                            <a href="team.html">Miembros</a>
+                            <a href="team.php">Miembros</a>
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -159,7 +159,7 @@
                             <p>
                                 Puesto en marcha el software, se brindó a modo de prueba el uso del producto en distintos proyectos inmobiliarios para conocer el uso en el campo.
                             </p>
-                            <a href="menu.html">Fotos</a>
+                            <a href="menu.php">Fotos</a>
                         </div>
                     </div>
                 </div>
